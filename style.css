@@ -123,6 +123,15 @@
         .hero {
             width: 80%;
         }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: hsl(204, 43%, 93%);
+        }
+        main>div {
+            min-width: 100%;
+        }
         .head {
             padding: 2.5em;
         }
